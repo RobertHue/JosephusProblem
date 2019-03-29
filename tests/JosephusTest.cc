@@ -29,7 +29,8 @@ BOOST_AUTO_TEST_CASE( JOSEPHUS_TEST_N5K2 )
 	int K = 2;
 	std::vector<int> evadedList;
 	int remainder = Josephus(5, 2, evadedList);
-	/// 0 1 2 3 4 => 1 3 0 4 , rem=2
+	/// 0 1 2 3 4 => 0 2 3 4 =>  0 2 4 => 2 4 => 4...
+	// sol : 1 3 0 4 , rem=2
 
 	BOOST_CHECK(evadedList.at(0) == 1);
 	BOOST_CHECK(evadedList.at(1) == 3);
