@@ -6,9 +6,11 @@ Hence, here is a solution, which finds out the sequence in which the candidates 
 
 ## Implementation Prototype
 
+```
 /// @brief method which solves the josephus problem
 /// @param0		N	the number of people
 /// @param1		K	the people being removed on the table
 /// @param2		evadedVectorList	the ordered list of evaded people
 /// @ret		the remainder of the josephus problem
 int Josephus(int N, int K, std::vector<int>& evadedVectorList);
+```
