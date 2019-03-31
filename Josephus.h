@@ -19,7 +19,6 @@ void eraseVectorAtIndex(std::vector<T>& vec, int idx) {
 /// @param2		evadedVectorList	the ordered list of evaded people
 /// @ret		the remainder of the josephus problem
 int Josephus(int N, int K, std::vector<int>& evadedVectorList) {
-	// @TODO what happens if K is greater than N?
 
 	// setup the josephus problem for N
 	std::list<int> list;
