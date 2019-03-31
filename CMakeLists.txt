@@ -2,7 +2,7 @@
 cmake_minimum_required (VERSION 3.8 FATAL_ERROR)
 
 # Define the project name
-project(MCTS_ConnectFour VERSION 0.1 LANGUAGES CXX)
+project(JOSEPHUS_PROBLEM VERSION 0.1 LANGUAGES CXX)
 
 message(STATUS "~~~ ${PROJECT_NAME} v${PROJECT_VERSION} ~~~")
 message(STATUS "Target: ${CMAKE_SYSTEM_PROCESSOR} (${CMAKE_SYSTEM_NAME})")
